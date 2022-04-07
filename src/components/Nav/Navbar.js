@@ -8,15 +8,13 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
 
-  padding: 10px 10px ;
-  
-  
+  padding: 10px 10px;
 `;
 
-const ImgLogo = styled.img `
+const ImgLogo = styled.img`
   margin-top: -30px;
   width: 300px;
-`
+`;
 
 const Navbar = () => {
   return (

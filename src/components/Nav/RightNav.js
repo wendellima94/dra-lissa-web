@@ -9,6 +9,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+
   a {
     text-decoration: none;
     outline: none;
@@ -29,20 +30,22 @@ const Ul = styled.ul`
     border-radius: 8px;
     border: none;
   }
+
   @media (max-width: 768px) {
     div {
-      top:0;
+      top: 0;
       width: 400px;
       height: 200px;
       margin: -50px -70px -40px 0;
       background: url("http://alphanetguaruja.com.br/wp-content/uploads/2022/03/logo-dralisa.png");
       background-size: contain;
-      background-repeat: no-repeat ;
+      background-repeat: no-repeat;
     }
     padding: 20px 50px;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    z-index: 18;
 
     flex-flow: column nowrap;
     background-color: #f7efc7;
@@ -72,6 +75,7 @@ const TopMenu = styled.aside`
   @media (max-width: 768px) {
     display: none;
   }
+
   width: 92%;
   display: flex;
   align-items: center;

@@ -7,6 +7,7 @@ import About from "./components/about";
 import Navbar from "./components/Nav/Navbar";
 
 import styled from "styled-components";
+import ScrollToTop from "./components/scrollToTop";
 
 const Border = styled.div`
   @media (max-width: 768px) {
@@ -20,6 +21,10 @@ const NoneNavBar = styled.div`
   }
 `;
 
+const MainWrapper = styled.main `
+  margin-top: 170px;
+`
+
 function App() {
   return (
     <div className="App">
@@ -31,13 +36,14 @@ function App() {
           <Menu />
         </Border>
       </header>
-      <main>
+      <MainWrapper>
         <ContentTopImg />
         <About />
         <section className="content-cards">
           <Cards />
         </section>
-      </main>
+      </MainWrapper>
+      <ScrollToTop />
     </div>
   );
 }
