@@ -14,9 +14,25 @@
 
   margin-top: 150px;
 }
+.carousel.carousel-slider .control-arrow:hover {
+  background: none;
+}
 
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow  {
+  background: none;
+}
+.control-dots {
+  display: none;
+}
+.carousel-status {
+  display: none;
+}
 @media (max-width: 768px) {
   .content-image {
     margin-top: 60px;
   }
+}
+
+.legend {
+  display: none;
 }

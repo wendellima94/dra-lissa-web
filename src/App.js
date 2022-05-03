@@ -21,30 +21,30 @@ const NoneNavBar = styled.div`
   }
 `;
 
-const MainWrapper = styled.main `
+const MainWrapper = styled.main`
   margin-top: 170px;
-`
+`;
 
 function App() {
   return (
-    <div className="App">
-      <NoneNavBar>
-        <Navbar />
-      </NoneNavBar>
-      <header className="App-header">
-        <Border>
-          <Menu />
-        </Border>
-      </header>
-      <MainWrapper>
-        <ContentTopImg />
-        <About />
-        <section className="content-cards">
-          <Cards />
-        </section>
-      </MainWrapper>
-      <ScrollToTop />
-    </div>
+      <div className="App">
+        <NoneNavBar>
+          <Navbar />
+        </NoneNavBar>
+        <header className="App-header">
+          <Border>
+            <Menu />
+          </Border>
+        </header>
+        <MainWrapper>
+          <ContentTopImg />
+          <About />
+          <section className="content-cards">
+            <Cards />
+          </section>
+        </MainWrapper>
+        <ScrollToTop />
+      </div>
   );
 }
 

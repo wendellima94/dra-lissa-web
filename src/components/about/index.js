@@ -7,14 +7,14 @@ export default function About() {
       <section className="wrapperContentImg">
         <img
           className="img-card"
-          src="http://alphanetguaruja.com.br/wp-content/uploads/2022/03/yoga-3053488_1920.jpg"
+          src="https://live.staticflickr.com/65535/52043285523_37db367f6a_o.jpg"
           alt="mulher ioga"
         />
       </section>
       <section className="wrapperContentText">
         <div className="titleWrapper">
           <br />
-          <br/>
+          <br />
           <h2>Melhor desempenho</h2>
         </div>
         <div className="TextContainer">
