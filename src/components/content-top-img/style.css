@@ -15,12 +15,9 @@
   margin-top: 150px;
 }
 .carousel.carousel-slider .control-arrow:hover {
-  background: none;
+  position: relative;
 }
 
-.carousel .control-arrow, .carousel.carousel-slider .control-arrow  {
-  background: none;
-}
 .control-dots {
   display: none;
 }
