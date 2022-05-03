@@ -14,9 +14,6 @@
 
   margin-top: 150px;
 }
-.carousel.carousel-slider .control-arrow:hover {
-  position: relative;
-}
 
 .control-dots {
   display: none;
